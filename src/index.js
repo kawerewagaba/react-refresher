@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import Gallery from './Gallery';
 import TaskApp from './TaskApp';
+import LevelApp from './LevelApp';
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
         <div>Hello, world!</div>
         <Gallery />
         <TaskApp />
+        <LevelApp />
         </>
     );
 }
